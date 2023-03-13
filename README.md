@@ -5,6 +5,7 @@ This tool offers:
 - convert dicom to png (if pixel array is 2D) / mp4 (3D)
 - extract all meta data (dicom header) to a single csv file
 - examize corrupted files and files with missing values
+- multi-thread speed up exact HUNDREDS files in seconds
 
 ## Installation
 ```bash
