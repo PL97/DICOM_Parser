@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: dcm-parser
+Version: 0.1.0
+Summary: A lightning DICOM Parser
+Home-page: https://github.com/PL97/DICOM_Parser
+Author: Le Peng
+Author-email: peng0347@umn.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 ## NER_eval
 A effecient tool for extract dicom meta data from files.
 
