@@ -9,7 +9,11 @@ License: MIT
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-## NER_eval
+![GitHub Liscence](https://img.shields.io/github/license/PL97/DICOM_Parser)
+![PyPi Download](https://img.shields.io/pypi/dm/DCM-parser)
+![Pypi version](https://img.shields.io/pypi/v/DCM-parser)
+
+## DCM-Parser
 A effecient tool for extract dicom meta data from files.
 
 This tool offers:
