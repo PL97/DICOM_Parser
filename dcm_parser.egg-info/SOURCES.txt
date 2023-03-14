@@ -1,5 +1,5 @@
-LICENSE
 README.md
+setup.cfg
 setup.py
 dcm_parser/__init__.py
 dcm_parser/dcm_parser.py
