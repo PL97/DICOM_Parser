@@ -109,12 +109,19 @@ def get_meta(p:str, convert_to_string:bool=True, verbose:bool=False, save_img:bo
                 representation, multiplicity, name, is_retired, keyword = entry
                 metadata[keyword] = v['Value'][0]
             except:
-                metadata[keyword] = None
-                missing_metadata_files[keyword].append(p)
-                if verbose:
-                    print(f"tag {k} ({keyword}) has no value")
-                else:
-                    pass
+                ## in the case that keyword is not retrievable
+                try:
+                    metadata[keyword] = None
+                    missing_metadata_files[keyword].append(p)
+                    if verbose:
+                        print(f"tag {k} ({keyword}) has no value")
+                    else:
+                        pass
+                except:
+                    if verbose:
+                        print(f"Cannot find corresponding keyword for {k}")
+                    else:
+                        pass
         else:
             try:
                 metadata[k] = v['Value'][0]
